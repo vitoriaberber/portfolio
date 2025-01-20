@@ -58,7 +58,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-shadow: 1px 1px rgba(0, 0, 0, 0.301);
+    text-shadow: 1px 1px var(--sombra);
     gap: 2.5rem;
     background: url('../assets/fundo.jpg') no-repeat top right;
     background-size: cover;
@@ -114,4 +114,38 @@ body {
     color: var(--branco);
     font-size: 1.5rem;
     cursor: pointer;
+}
+
+.titulo {
+    font-family: var(--font-secundaria);
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-decoration: underline var(--cor-azul-claro);
+    text-align: center;
+}
+
+.principal__sobre-mim {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 4rem;
+}
+
+.sobre-mim__imagem {
+    width: 250px;
+    margin: 1rem;
+    border-radius: 5px;
+}
+
+.container__lista li {
+    font-size: 1.1rem;
+    padding: 7px;
+}
+
+.container__lista li::before {
+    content: "\2022";
+    color: white;
+    padding-right: 10px;
 }

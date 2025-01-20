@@ -1,3 +1,17 @@
+@media screen and (width >= 600px){
+    .sessao-principal__texto {
+        font-size: 2.5rem;
+    }
+
+    .sessao-principal__titulo {
+        font-size: 5.2rem;
+    }
+
+    .sessao-principal__titulo-dois {
+        font-size: 1.6rem;
+    }
+}
+
 @media screen and (width >= 912px) {
     .cabecalho__titulo{
         font-size: 2.5rem;
@@ -29,6 +43,27 @@
         color: var(--branco);
         font-size: 1.1rem;
     }
+
+    .principal__sessao-principal {
+        gap: 1.7rem;
+    }
+
+    .sessao-principal__texto {
+        font-size: 3rem;
+    }
+
+    .sessao-principal__titulo {
+        font-size: 6rem;
+    }
+
+    .sessao-principal__titulo-dois {
+        font-size: 2rem;
+    }
+
+    .texto-dois__link {
+        font-size: 1.6rem;
+    }
+
 }
 
 @media screen and (width >= 1200px) {

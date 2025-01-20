@@ -60,11 +60,14 @@ body {
     align-items: center;
     text-shadow: 1px 1px rgba(0, 0, 0, 0.301);
     gap: 2.5rem;
-    transition: all 1s ease;
     background: url('../assets/fundo.jpg') no-repeat top right;
     background-size: cover;
     text-align: center;
     height: 100vh;
+}
+
+.texto {
+    transition: font-size .5s ease;
 }
 
 .sessao-principal__texto {

@@ -1,4 +1,12 @@
 @media screen and (width >= 600px){
+    .titulo {
+        font-size: 2.5rem;
+    }
+
+    .container__lista li {
+        font-size: 1.3rem;
+    }
+
     .sessao-principal__texto {
         font-size: 2.5rem;
     }
@@ -64,10 +72,43 @@
         font-size: 1.6rem;
     }
 
+    .titulo {
+        font-size: 3rem;
+    }
+
+    .principal__sobre-mim {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .sobre-mim__imagem {
+        width: 400px;
+    }
+
+    .container__lista li {
+        font-size: 1.4rem;
+        padding-bottom: 2rem;
+    }
 }
 
 @media screen and (width >= 1200px) {
     .navegacao__lista a {
         font-size: 1.2rem;
+    }
+
+    .titulo {
+        font-size: 3rem;
+    }
+
+    .principal__sobre-mim {
+        align-items: center;
+    }
+
+    .sobre-mim__imagem {
+        width: 500px;
+    }
+
+    .container__lista li {
+        padding-bottom: 2.5rem;
     }
 }

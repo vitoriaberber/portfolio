@@ -130,12 +130,14 @@ body {
     align-items: center;
     justify-content: space-between;
     text-align: center;
+    padding-bottom: 3rem;
 }
 
 .sobre-mim__imagem {
     width: 250px;
     margin: 1rem;
     border-radius: 5px;
+    transition: width .5s ease;
 }
 
 .container__lista li {

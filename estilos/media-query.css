@@ -1,0 +1,38 @@
+@media screen and (width >= 912px) {
+    .cabecalho__titulo{
+        font-size: 2.5rem;
+    }
+
+    .navegacao__container {
+        display: none;
+    }
+
+    .navegacao__lista {
+        display: flex;
+    }
+
+    .navegacao__lista li{
+        padding: 12px;
+        border-radius: 5px;
+        transition: font-weight .5s ease, background-color .5s ease;
+        margin: 0 5px;
+    }
+
+    .navegacao__lista li:hover {
+        cursor: pointer;
+        background-color: var(--cor-azul-claro2);
+        font-weight: bold;
+    }
+
+    .navegacao__lista a {
+        text-decoration: none;
+        color: var(--branco);
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (width >= 1200px) {
+    .navegacao__lista a {
+        font-size: 1.2rem;
+    }
+}

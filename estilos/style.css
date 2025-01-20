@@ -64,7 +64,7 @@ body {
     background: url('../assets/fundo.jpg') no-repeat top right;
     background-size: cover;
     text-align: center;
-    height: 100vh;
+    height: 101vh;
 }
 
 .sessao-principal__texto {
@@ -93,6 +93,7 @@ body {
     background-color: var(--cor-azul-claro);
     padding: .5rem;
     border-radius: 5px;
+    margin-bottom: 1rem;
     transition: background-color .5s ease;
 }
 

@@ -89,6 +89,14 @@
         font-size: 1.4rem;
         padding-bottom: 2rem;
     }
+
+    .habilidades__lista li{
+        font-size: 1.2rem;
+    }
+    
+    .habilidades__lista li:hover{
+        font-size: 1.4rem;
+    }
 }
 
 @media screen and (width >= 1200px) {
@@ -111,4 +119,9 @@
     .container__lista li {
         padding-bottom: 2.5rem;
     }
+
+    .habilidades__lista li{
+        width: 400px;
+    }
+
 }

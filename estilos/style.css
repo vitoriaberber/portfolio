@@ -50,7 +50,7 @@ body {
 }
 
 .sessao {
-    padding: 7rem 20px 0 20px;
+    padding: 7rem 20px 3rem 20px;
 }
 
 .principal__sessao-principal{
@@ -130,7 +130,6 @@ body {
     align-items: center;
     justify-content: space-between;
     text-align: center;
-    padding-bottom: 3rem;
 }
 
 .sobre-mim__imagem {
@@ -150,3 +149,33 @@ body {
     color: white;
     padding-right: 10px;
 }
+
+.habilidades__lista {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    transition: all .5s ease;
+}
+
+.habilidades__lista a{
+    text-decoration: none;
+    color: var(--branco);
+}
+
+.habilidades__lista li{
+    background-color: var(--cor-secundaria);
+    padding: 100px;
+    width: 280px;
+    margin: 10px 0;
+    border-radius: 10px;
+    transition: all .5s ease;
+}
+
+.habilidades__lista li:hover{
+    background-color: var(--cor-secundaria-hover);
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+

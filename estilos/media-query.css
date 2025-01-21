@@ -18,6 +18,12 @@
     .sessao-principal__titulo-dois {
         font-size: 1.6rem;
     }
+
+    .contatos__lista > li{
+        font-size: 1.3rem;
+        width: 150px;
+        text-align: center;
+    }
 }
 
 @media screen and (width >= 912px) {
@@ -97,15 +103,29 @@
     .habilidades__lista li:hover{
         font-size: 1.4rem;
     }
+
+    .container-pai__container-filho {
+        width: 400px;
+        margin: 0 .5rem;
+    }
+    .container-filho__titulo {
+        font-size: 1.5rem;
+    }
+    .container-pai__container-filho img {
+        width: 400px;
+    }
+
+    .contatos__lista > li{
+        font-size: 1.5rem;
+        padding: 1.3rem;
+        width: 200px;
+    }
+
 }
 
 @media screen and (width >= 1200px) {
     .navegacao__lista a {
         font-size: 1.2rem;
-    }
-
-    .titulo {
-        font-size: 3rem;
     }
 
     .principal__sobre-mim {
@@ -123,5 +143,6 @@
     .habilidades__lista li{
         width: 400px;
     }
+
 
 }

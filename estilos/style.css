@@ -171,11 +171,16 @@ body {
     margin: 10px 0;
     border-radius: 10px;
     transition: all .5s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .habilidades__lista li:hover{
     background-color: var(--cor-secundaria-hover);
     font-size: 1.5rem;
     cursor: pointer;
+    text-align: center;
 }
 

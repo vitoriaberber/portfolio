@@ -19,12 +19,29 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-    width: 100vw;
+    width: 98.5vw;
     background-color: var(--fundo);
     color: var(--branco);
     font-family: var(--font);
     overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    background-color: var(--preto);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--cor-azul-claro2);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--cor-azul-claro);
 }
 
 .cabecalho {
@@ -50,7 +67,7 @@ body {
 }
 
 .sessao {
-    padding: 7rem 20px 3rem 20px;
+    padding: 7rem 1rem 3rem 1rem;
 }
 
 .principal__sessao-principal{
@@ -225,12 +242,36 @@ body {
     border: 2px solid var(--cor-azul);
 }
 
-.container-pai__container-filho:hover {
+.container-pai__container-filho img:hover {
+    filter: brightness(0.5);
     cursor: pointer;
 }
 
-.container-pai__container-filho img:hover {
-    filter: brightness(0.5);
+.experiencias__profissao {
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+    background-color: var(--cor-secundaria);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.profissao__duracao {
+    font-size: .9rem;
+    color: var(--cor-azul-claro2);
+}
+
+.titulo__cargo {
+    color: var(--cor-azul-claro2);
+}
+
+.profissao__titulo {
+    font-size: 1.5rem;
+}
+
+.profissao__paragrafo {
+    line-height: 1.2rem;
+    text-align: justify;
 }
 
 .contatos__lista{
@@ -256,9 +297,23 @@ body {
     color: var(--branco);
 }
 
+.principal__botao {
+    margin: 0 0 5rem 1.5rem;
+    position: fixed;
+    top: 82%;
+    background-color: var(--cor-azul-claro);
+    border-radius: 50%;
+    padding: .2rem;
+}
+
+.principal__botao img {
+    width: 50px;
+}
+
 .rodape {
     text-align: center;
     padding: .5rem 0;
     background-color: var(--cor-azul-claro);
     transition: all .5s ease;
+    width: 100vw;
 }

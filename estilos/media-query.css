@@ -78,6 +78,10 @@
         font-size: 1.6rem;
     }
 
+    .texto-dois__link:hover {
+        font-size: 1.7rem;
+    }
+
     .titulo {
         font-size: 3rem;
     }

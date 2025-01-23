@@ -61,8 +61,39 @@ body {
     font-weight: bold;
 }
 
+.cabecalho__navegacao {
+    position: relative;
+}
+
 .navegacao__lista {
     display: none;
+}
+
+.navegacao__lista.aparecer {
+    display: block;
+    position: absolute;
+    background-color: var(--cor-azul-claro);
+    right: -3px;
+    top: 49px;
+    text-align: center;
+}
+
+.navegacao__lista.aparecer li{
+    padding: 6px;
+    margin: 0 5px;
+    transition: font-weight .5s ease, background-color .5s ease;
+}
+
+.navegacao__lista.aparecer li:hover {
+    cursor: pointer;
+    background-color: var(--cor-azul-claro2);
+    font-weight: bold;
+}
+
+.navegacao__lista.aparecer a {
+    text-decoration: none;
+    color: var(--branco);
+    font-size: 1.1rem;
 }
 
 .sessao {

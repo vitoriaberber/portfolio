@@ -17,6 +17,10 @@ window.addEventListener('resize', () => {
     }
 });
 
+window.addEventListener('load', () => {
+    botao.style.display = 'none';
+})
+
 window.addEventListener('scroll', () => {
     if(window.scrollY > 300){
         botao.style.display = 'block';

@@ -10,44 +10,44 @@
 </head>
 <body id="body">
     <header class="cabecalho">
-        <h1 class="cabecalho__titulo">VB</h1>
+        <h1 class="cabecalho__titulo texto__modo">VB</h1>
         <nav class="cabecalho__navegacao">
             <div class="navegacao__modo">
                 <div class="modo__sol">
                     <img src="assets/sol.svg" alt="Ícone de Sol">
                 </div>
-                <div class="modo__botao"></div>
+                <div class="modo__botao fundo-botao"></div>
                 <div class="modo__lua">
                     <img src="assets/lua.svg" alt="Ícone de Lua">
                 </div>
             </div>
 
             <div class="navegacao__container" id="menu">
-                <img src="assets/menu-branco.svg" alt="Ícone de menu">
+                <img src="assets/menu-branco.svg" alt="Ícone de menu" class="container__imagem-menu">
             </div>
 
             <ul class="navegacao__lista" id="lista">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#sobre-mim">Sobre mim</a></li>
-                <li><a href="#habilidades">Habilidades</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#experiencias">Experiências</a></li>
-                <li><a href="#contatos">Contatos</a></li>
+                <li><a href="#home" class="texto__modo">Home</a></li>
+                <li><a href="#sobre-mim" class="texto__modo">Sobre mim</a></li>
+                <li><a href="#habilidades" class="texto__modo">Habilidades</a></li>
+                <li><a href="#projetos" class="texto__modo">Projetos</a></li>
+                <li><a href="#experiencias" class="texto__modo">Experiências</a></li>
+                <li><a href="#contatos" class="texto__modo">Contatos</a></li>
             </ul>
         </nav>
     </header>
 
     <main class="principal">
         <section class="principal__sessao-principal sessao" id="home">
-            <p class="sessao-principal__texto texto">
+            <p class="sessao-principal__texto texto texto__modo">
                 <span class="texto__span">Olá</span> eu sou
             </p>
 
-            <h1 class="sessao-principal__titulo texto">Vitória Berber</h1>
+            <h1 class="sessao-principal__titulo texto texto__modo">Vitória Berber</h1>
 
             <h2 class="sessao-principal__titulo-dois texto"><strong>Estudante de Análise e Desenvolvimento de Sistemas</strong></h2>
 
-            <p class="sessao-principal__texto-dois"><a href="https://drive.google.com/file/d/1iEj7wBfzLT6o9WY_IyDcgkXzAOHoLTBF/view?usp=sharing" target="_blank" class="texto-dois__link texto">Currículo</a></p>
+            <p class="sessao-principal__texto-dois"><a href="https://drive.google.com/file/d/1iEj7wBfzLT6o9WY_IyDcgkXzAOHoLTBF/view?usp=sharing" target="_blank" class="texto-dois__link texto texto__modo">Currículo</a></p>
 
         </section>
 
@@ -57,9 +57,9 @@
             </div>
 
             <div class="sobre-mim__container">
-                <h2 class="container__titulo titulo texto">Sobre mim</h2>
+                <h2 class="container__titulo titulo texto texto__modo">Sobre mim</h2>
                 <br>
-                <ul class="container__lista">
+                <ul class="container__lista texto__modo">
                     <li class="texto">&#x1F393; Análise e Desenvolvimento de Sistemas (terceiro semestre) na Universidade Municipal de São Caetano do Sul</li>
                     <li class="texto">&#x1F4DA; Estudando desenvolvimento web</li>
                     <li class="texto">&#x1F524; B2 nível de inglês intermediário</li>
@@ -69,77 +69,77 @@
         </section>
 
         <section class="principal__habilidades sessao" id="habilidades">
-            <h2 class="habilidades__titulo titulo">Habilidades</h2>
+            <h2 class="habilidades__titulo titulo texto__modo">Habilidades</h2>
             <ul class="habilidades__lista"> 
                 <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">
-                    <li>HTML</li>
+                    <li class="fundo texto__modo">HTML</li>
                 </a>
 
                 <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank">
-                    <li>CSS</li>
+                    <li class="fundo texto__modo">CSS</li>
                 </a>
 
                 <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank">
-                    <li>JavaScript</li>
+                    <li class="fundo texto__modo">JavaScript</li>
                 </a>
             </ul>
         </section>
 
         <section class="principal__projetos sessao" id="projetos">
-            <h2 class="projetos__titulo titulo">Projetos</h2>
+            <h2 class="projetos__titulo titulo texto__modo">Projetos</h2>
 
             <div class="projetos__container-pai">
                 <div class="container-pai__container-filho">
-                    <h3 class="container-filho__titulo">Calculadora</h3>
+                    <h3 class="container-filho__titulo texto__modo">Calculadora</h3>
                     <a href="https://github.com/vitoriaberber/calculadora" target="_blank">
                         <img src="assets/calc.png" alt="Calculadora">
                     </a>
                 </div>
 
                 <div class="container-pai__container-filho">
-                    <h3 class="container-filho__titulo">IMC</h3>
+                    <h3 class="container-filho__titulo texto__modo">IMC</h3>
                     <a href="https://github.com/vitoriaberber/projeto-imc" target="_blank">
                         <img src="assets/imc.png" alt="Calculadora de Índice de Massa Corporal" class="container-filho__imc">
                     </a>
                 </div>
 
                 <div class="container-pai__container-filho">
-                    <h3 class="container-filho__titulo">Página de Login</h3>
+                    <h3 class="container-filho__titulo texto__modo">Página de Login</h3>
                     <a href="https://github.com/vitoriaberber/projeto-login" target="_blank">
                         <img src="assets/login.png" alt="Página de Login">
                     </a>
                 </div>
 
                 <div class="container-pai__container-filho">
-                    <h3 class="container-filho__titulo">Página de Cadastro</h3>
+                    <h3 class="container-filho__titulo texto__modo">Página de Cadastro</h3>
                     <a href="https://github.com/vitoriaberber/projeto-cadastro" target="_blank">
                         <img src="assets/cadastro.png" alt="Página de Cadastro de Pet">
                     </a>
                 </div>
 
                 <div class="container-pai__container-filho">
-                    <h3 class="container-filho__titulo">Página Nike</h3>
+                    <h3 class="container-filho__titulo texto__modo">Página Nike</h3>
                     <a href="https://github.com/vitoriaberber/projeto-nike" target="_blank">
                         <img src="assets/nike.png" alt="Página de um tênis da Nike">
                     </a>
                 </div>
                 
                 <div class="container-pai__container-filho">
-                    <h3 class="container-filho__titulo">Página de dicas de séries</h3>
+                    <h3 class="container-filho__titulo texto__modo">Página de dicas de séries</h3>
                     <a href="https://github.com/vitoriaberber/projeto-series" target="_blank">
                         <img src="assets/series.png" alt="Página de Recomendação de Séries">
                     </a>
                 </div>
 
                 <div class="container-pai__container-filho">
-                    <h3 class="container-filho__titulo">Página de Notícias</h3>
+                    <h3 class="container-filho__titulo texto__modo">Página de Notícias</h3>
                     <a href="https://github.com/vitoriaberber/projeto-noticias" target="_blank">
                         <img src="assets/noticias.png" alt="Página de Notícias">
                     </a>
                 </div>
 
                 <div class="container-pai__container-filho">
-                    <h3 class="container-filho__titulo">Página Friends</h3>
+                    <h3 class="container-filho__titulo texto__modo">Página Friends</h3>
                     <a href="https://github.com/vitoriaberber/projeto-friends" target="_blank">
                         <img src="assets/friends.png" alt="Página da série Friends">
                     </a>
@@ -147,9 +147,9 @@
             </div>
         </section>
 
-        <section class="principal__experiencias sessao" id="experiencias">
+        <section class="principal__experiencias sessao texto__modo" id="experiencias">
             <h2 class="experiencias__titulo titulo">Experiências</h2>
-            <div class="experiencias__profissao">
+            <div class="experiencias__profissao fundo texto__modo">
                 <p class="profissao__duracao">2024 - presente</p>
                 <h3 class="profissao__titulo"><span class="titulo__cargo">Estagiária de TI</span> - A3DG</h3>
                 <p class="profissao__paragrafo">Como estagiária, minhas funções envolvem a organização e gestão de documentos digitais, incluindo a indexação de arquivos e o uso de planilhas no Excel.</p>
@@ -157,11 +157,11 @@
         </section>
 
         <section class="principal__contatos sessao" id="contatos">
-            <h2 class="contatos__titulo titulo">Contatos</h2>
+            <h2 class="contatos__titulo titulo texto__modo">Contatos</h2>
             <ul class="contatos__lista">
-                <li><a href="mailto:vitoriaberberdev@gmail.com">Email</a></li>
-                <li><a href="https://github.com/vitoriaberber" target="_blank">Github</a></li>
-                <li><a href="https://linkedin.com/in/vitória-berber" target="_blank">LinkedIn</a></li>
+                <li><a href="mailto:vitoriaberberdev@gmail.com" class="texto__modo">Email</a></li>
+                <li><a href="https://github.com/vitoriaberber" target="_blank" class="texto__modo">Github</a></li>
+                <li><a href="https://linkedin.com/in/vitória-berber" target="_blank" class="texto__modo">LinkedIn</a></li>
             </ul>
         </section>
 
@@ -171,7 +171,7 @@
     </main>
 
     <footer class="rodape">
-        <p class="rodape__texto">Copyright &copy; 2025 de Vitória Berber. Todos os direitos reservados.</p>
+        <p class="rodape__texto texto__modo">Copyright &copy; 2025 de Vitória Berber. Todos os direitos reservados.</p>
     </footer>
 
     <script src="js/main.js"></script>

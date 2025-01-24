@@ -148,6 +148,11 @@ body {
     width: 100vw;
 }
 
+.principal__sessao-principal.invertido {
+    background: url('../assets/fundo-invertido.jpg') no-repeat top right;
+    background-size: cover;
+}
+
 .texto {
     transition: font-size .5s ease;
 }
@@ -219,6 +224,7 @@ body {
     margin: 1rem;
     border-radius: 5px;
     transition: width .5s ease;
+    border: 2px solid var(--preto);
 }
 
 .container__lista li {
@@ -304,7 +310,7 @@ body {
 }
 
 .container-filho__imc {
-    border: 2px solid var(--cor-azul);
+    border: 2px solid var(--cor-azul-claro);
 }
 
 .container-pai__container-filho img:hover {
@@ -381,4 +387,5 @@ body {
     background-color: var(--cor-azul-claro);
     transition: all .5s ease;
     width: 100vw;
+    font-size: .9rem;
 }

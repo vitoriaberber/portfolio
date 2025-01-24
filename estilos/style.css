@@ -63,6 +63,40 @@ body {
 
 .cabecalho__navegacao {
     position: relative;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.navegacao__modo {
+    background-color: var(--cor-azul-claro2);
+    display: flex;
+    gap: .5rem;
+    width: 80px;
+    justify-content: space-evenly;
+    padding: .2rem;
+    border-radius: 20px;
+    position: relative;
+    flex-direction: row-reverse;
+}
+
+.modo__sol img, .modo__lua img {
+    width: 20px;
+}
+
+.modo__botao {
+    background-color: var(--branco);
+    width: 20px;
+    border-radius: 200px;
+    position: absolute;
+    top: 4px;
+    left: 10px;
+    height: 20px;
+    transition: left .5s ease;
+}
+
+.modo__botao.claro {
+    left: 49px;
 }
 
 .navegacao__lista {
@@ -74,7 +108,7 @@ body {
     position: absolute;
     background-color: var(--cor-azul-claro);
     right: -3px;
-    top: 49px;
+    top: 50px;
     text-align: center;
 }
 

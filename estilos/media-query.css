@@ -1,4 +1,19 @@
 @media screen and (width >= 600px){
+    .navegacao__modo {
+        width: 90px;
+        padding: .5rem;
+    }
+
+    .modo__sol img, .modo__lua img{
+        width: 100%;
+    }
+
+    .modo__botao {
+        width: 27px;
+        height: 27px;
+        top: 7px;
+    }
+    
     .titulo {
         font-size: 2.5rem;
     }

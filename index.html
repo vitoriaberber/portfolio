@@ -8,10 +8,20 @@
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-query.css">
 </head>
-<body>
+<body id="body">
     <header class="cabecalho">
         <h1 class="cabecalho__titulo">VB</h1>
         <nav class="cabecalho__navegacao">
+            <div class="navegacao__modo">
+                <div class="modo__sol">
+                    <img src="assets/sol.svg" alt="Ícone de Sol">
+                </div>
+                <div class="modo__botao"></div>
+                <div class="modo__lua">
+                    <img src="assets/lua.svg" alt="Ícone de Lua">
+                </div>
+            </div>
+
             <div class="navegacao__container" id="menu">
                 <img src="assets/menu-branco.svg" alt="Ícone de menu">
             </div>
@@ -155,9 +165,9 @@
             </ul>
         </section>
 
-        <section class="principal__botao" id="botao">
+        <div class="principal__botao" id="botao">
             <a href="#home"><img src="assets/flecha-cima.png" alt="Flecha apontando pra cima pra ir direto pro começo da página"></a>
-        </section>
+        </div>
     </main>
 
     <footer class="rodape">

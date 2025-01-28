@@ -109,10 +109,6 @@ body {
 
 .navegacao__lista-idioma {
     display: none;
-}
-
-.navegacao__lista-idioma {
-    display: none;
     position: relative;
 }
 
@@ -188,32 +184,6 @@ body {
     font-size: 4.5rem;
     font-weight: bold;
     font-family: var(--font-secundaria);
-    width: 14ch;
-    border-right: 3px solid var(--cor-azul-claro);
-    animation: blinkMarker .8s infinite, typing 5s infinite steps(14);
-    overflow: hidden;
-    white-space: nowrap;
-}
-
-@keyframes blinkMarker {
-    50% {
-        border-right-color: transparent;
-    }
-}
-
-@keyframes typing {
-    0% {
-        width: 0;
-    }
-    40% {
-        width: 14ch;
-    }
-    60% {
-        width: 14ch;
-    }
-    100% {
-        width: 0;
-    }
 }
 
 .sessao-principal__titulo-dois {

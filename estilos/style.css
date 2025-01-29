@@ -78,6 +78,7 @@ body {
     border-radius: 20px;
     position: relative;
     flex-direction: row-reverse;
+    cursor: pointer;
 }
 
 .modo__sol img, .modo__lua img {

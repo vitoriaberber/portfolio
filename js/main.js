@@ -21,7 +21,7 @@ const traducoes = {
     aboutMeTitle: 'About me',
     aboutMeText: [
       '🎓 Systems Analysis and Development (third semester) at Universidade Municipal de São Caetano do Sul',
-      '📚 Studying web development',
+      '📚 Studying React.js, Next.js and PostgreSQL',
       '🗣️ B2 intermediate level in English',
       '🚀 Looking for opportunities as an IT intern or in the development area.',
     ],
@@ -30,17 +30,17 @@ const traducoes = {
     projects: {
       calculator: 'Calculator',
       imc: 'BMI Calculator',
-      loginPage: 'Login Page',
-      registerPage: 'Registration Page',
-      nikePage: 'Nike Page',
-      seriesPage: 'Series Recommendations Page',
-      newsPage: 'News Page',
-      friendsPage: 'Friends Page',
+      passwordGenerator: 'Password Generator',
+      expenseControl: 'Expense Control',
+      list: 'To Do List',
+      weatherAPI: 'Weather API',
+      moviesAPI: 'Movies API',
+      pomodoro: 'Pomodoro',
     },
     experiencesTitle: 'Experiences',
-    experiencesData: '2024 - now',
+    experiencesData: '2024 - 2025',
     experiencesRole: 'IT Intern',
-    experienceText: 'As an intern, my tasks involve organizing and managing digital documents, including file indexing and using Excel spreadsheets.',
+    experienceText: 'I worked in digital file management, using spreadsheets to index and secure documents, facilitating the organization and retrieval of information. In addition, I helped automate and make internal processes more efficient by creating formulas in Excel and providing improvements. I also used digital storage tools.',
     contactsTitle: 'Contacts',
     copyright: 'Copyright © 2025 Vitória Berber. All rights reserved.',
   },
@@ -59,7 +59,7 @@ const traducoes = {
     aboutMeTitle: 'Sobre mim',
     aboutMeText: [
       '🎓 Análise e Desenvolvimento de Sistemas (terceiro semestre) na Universidade Municipal de São Caetano do Sul',
-      '📚 Estudando desenvolvimento web',
+      '📚 Estudando React.js, Next.js e Pomodoro',
       '🗣️ B2 nível de inglês intermediário',
       '🚀 Estou em busca de oportunidades como estagiária de tecnologia da informação ou na área de desenvolvimento.',
     ],
@@ -68,17 +68,17 @@ const traducoes = {
     projects: {
       calculator: 'Calculadora',
       imc: 'Calculadora de IMC',
-      loginPage: 'Página de Login',
-      registerPage: 'Página de Cadastro',
-      nikePage: 'Página Nike',
-      seriesPage: 'Página de dicas de séries',
-      newsPage: 'Página de Notícias',
-      friendsPage: 'Página Friends',
+      passwordGenerator: 'Gerador de senhas',
+      expenseControl: 'Controle de gastos',
+      list: 'To Do List',
+      weatherAPI: 'API Clima',
+      moviesAPI: 'API Filmes',
+      pomodoro: 'Pomodoro',
     },
     experiencesTitle: 'Experiências',
-    experiencesData: '2024 - presente',
+    experiencesData: '2024 - 2025',
     experiencesRole: 'Estagiária de TI',
-    experienceText: 'Como estagiária, minhas funções envolvem a organização e gestão de documentos digitais, incluindo a indexação de arquivos e o uso de planilhas no Excel.',
+    experienceText: 'Atuei no gerenciamento de arquivos digitais, dos quais utilizei planilhas para a indexação e segurança dos documentos, facilitando a organização e recuperação das informações. Além disso, auxiliei na automação e eficiência dos processos internos, criando fórmulas no Excel e sugerindo melhorias. Também fiz uso de ferramentas de armazenamento digital.',
     contactsTitle: 'Contatos',
     copyright: 'Copyright © 2025 de Vitória Berber. Todos os direitos reservados.',
   },
@@ -182,12 +182,12 @@ function changeLanguage(idio) {
     document.querySelector(".projetos__titulo").innerText = traducoes[idio].projectsTitle;
     document.querySelector(".container-pai__container-filho:nth-child(1) .container-filho__titulo").textContent = traducoes[idio].projects.calculator;
     document.querySelector(".container-pai__container-filho:nth-child(2) .container-filho__titulo").textContent = traducoes[idio].projects.imc;
-    document.querySelector(".container-pai__container-filho:nth-child(3) .container-filho__titulo").textContent = traducoes[idio].projects.loginPage;
-    document.querySelector(".container-pai__container-filho:nth-child(4) .container-filho__titulo").textContent = traducoes[idio].projects.registerPage;
-    document.querySelector(".container-pai__container-filho:nth-child(5) .container-filho__titulo").textContent = traducoes[idio].projects.nikePage;
-    document.querySelector(".container-pai__container-filho:nth-child(6) .container-filho__titulo").textContent = traducoes[idio].projects.seriesPage;
-    document.querySelector(".container-pai__container-filho:nth-child(7) .container-filho__titulo").textContent = traducoes[idio].projects.newsPage;
-    document.querySelector(".container-pai__container-filho:nth-child(8) .container-filho__titulo").textContent = traducoes[idio].projects.friendsPage;
+    document.querySelector(".container-pai__container-filho:nth-child(3) .container-filho__titulo").textContent = traducoes[idio].projects.passwordGenerator;
+    document.querySelector(".container-pai__container-filho:nth-child(4) .container-filho__titulo").textContent = traducoes[idio].projects.expenseControl;
+    document.querySelector(".container-pai__container-filho:nth-child(5) .container-filho__titulo").textContent = traducoes[idio].projects.list;
+    document.querySelector(".container-pai__container-filho:nth-child(6) .container-filho__titulo").textContent = traducoes[idio].projects.weatherAPI;
+    document.querySelector(".container-pai__container-filho:nth-child(7) .container-filho__titulo").textContent = traducoes[idio].projects.moviesAPI;
+    document.querySelector(".container-pai__container-filho:nth-child(8) .container-filho__titulo").textContent = traducoes[idio].projects.pomodoro;
   
     document.querySelector(".experiencias__titulo").innerText = traducoes[idio].experiencesTitle;
     document.querySelector(".profissao__duracao").innerText = traducoes[idio].experiencesData;

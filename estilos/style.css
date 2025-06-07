@@ -1,15 +1,6 @@
 @charset "UTF-8";
 
 :root {
-    --cor-azul-claro: #0077B6;
-    --cor-azul-claro2: #239cdd;
-    --sombra: #0000004d;
-    --cor-secundaria: #313131;
-    --cor-secundaria-hover: #474747;
-    --fundo: #0A0A0A;
-    --preto: #000000;
-    --branco: #ffffff;
-
     --font: Arial, sans-serif;
     --font-secundaria: 'Times New Roman', Times, serif;
 }
